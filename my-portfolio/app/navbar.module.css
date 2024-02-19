@@ -8,7 +8,6 @@
 }
 .navbarLogo {
   color: white;
-
   margin-left: 6%;
   width: 20%;
 }
@@ -17,4 +16,5 @@
   width: 80%;
   display: flex;
   justify-content: space-evenly;
+  cursor: pointer;
 }

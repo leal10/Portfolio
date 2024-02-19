@@ -5,10 +5,19 @@ export default function Navbar() {
     <div className={styles.navbarContainer}>
       <div className={styles.navbarLogo}>DL</div>
       <div className={styles.navbarLinks}>
-        <p>Home</p>
-        <p>Tech</p>
-        <p>Projects</p>
-        <p>Contact</p>
+        {/* I need to make these links and to go to the correct section when pressed */}
+        <a className={styles.Navbarlink} href="#">
+          Home
+        </a>
+        <a className={styles.Navbarlink} href="#">
+          Tech
+        </a>
+        <a className={styles.Navbarlink} href="#">
+          Projects
+        </a>
+        <a className={styles.Navbarlink} href="#">
+          Contact
+        </a>
       </div>
     </div>
   )
